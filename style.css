@@ -1,0 +1,116 @@
+.header {
+  background-color: dodgerblue;
+  grid-column: full-start / full-end;
+  /* padding: 1rem;  */
+}
+
+.nav {
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(15rem, 2fr));
+  /* grid-gap: 1rem; */
+  /* align-items: center;  */
+  color: #fff;
+  align-content: center;
+  padding-left: 10rem;
+}
+
+.main {
+  grid-column: center-start / center-end;
+  margin: 2rem 1rem 1rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+  grid-gap: 7rem;
+  background-color: dodgerblue;
+  padding: 1rem 25rem 1rem;
+}
+.div-main {
+  /* padding-left: -22rem; */
+  margin-left: -20rem;
+}
+.first-section {
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(3rem, 6fr));
+  grid-gap: 1rem;
+  /* align-items: center;  */
+  color: #000;
+  /* align-content: center; */
+  /* padding-left: 10rem; */
+  margin-bottom: -2rem;
+}
+.second-section {
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(3rem, 6fr));
+  grid-gap: 1rem;
+  /* align-items: center;  */
+  color: #000;
+  margin-top: -8rem;
+  margin-bottom: -2rem;
+}
+
+.guess,
+.guess_multi,
+.guess_plus {
+  background: white;
+  border: 1px solid rgb(27, 26, 26);
+  font-family: inherit;
+  color: inherit;
+  font-size: 2rem;
+  padding: 1rem;
+  width: 10rem;
+  /* text-align: center; */
+  display: block;
+  margin-bottom: 3rem;
+}
+
+.btn {
+  border: none;
+  background-color: rgb(27, 46, 221);
+  color: #fff;
+  font-size: 2rem;
+  font-family: inherit;
+  /* padding: 2rem 3rem; */
+  margin-top: 1.5rem;
+  margin-left: 15rem;
+  padding: 1rem 1rem 1rem 1rem;
+  cursor: pointer;
+  transition: background-color 1s;
+  border: 10px;
+  border-radius: 5%;
+}
+.btn:hover {
+  background-color: rgba(101, 104, 139, 0.726);
+}
+.reset {
+  position: absolute;
+  top: 35rem;
+  right: 5rem;
+  /* background-color: whitesmoke; */
+  /* color: rgb(27, 46, 221); */
+}
+
+.message,
+.message_plus,
+.message_multi {
+  margin-bottom: 4rem;
+  font-size: 2rem;
+}
+
+.label-score {
+  margin-bottom: 4rem;
+  font-size: 2rem;
+}
+.label-firstDigit {
+  margin-bottom: 4rem;
+  font-size: 2rem;
+}
+.digit {
+  margin-bottom: 4rem;
+  font-size: 3rem;
+  display: block;
+  margin-top: 1rem;
+  padding: 1rem;
+  text-align: center;
+}

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+</head>
+<body>
+    <header class="header">
+        <nav>
+            <div>
+                <button class="btn reset">Reset</button>                
+            </div> 
+            <div>
+                <ul class="nav">            
+
+                    <li><h1>Subtraction:</h1><p class="message">Start guessing...</p></li>
+                    <li><h1>Addition:</h1><p class="message_plus">Start guessing...</p></li>
+                    <li><h1>Multiplication:</h1><p class="message_multi">Start guessing...</p></li>
+                </ul>
+
+            </div>
+  
+        </nav>
+    </header>
+    <main class="main">
+
+        <div class="div-main">
+            <ul class="first-section">
+                <li class="nav__item"><span class="digit firstNumber">10</span></p></li>
+                <li class="nav__item"><span class="digit">−</span></p></li>
+                <li class="nav__item"><span class="digit secondNumber">10</span></p></li>
+                <li class="nav__item"><span class="digit">=</span></p></li>
+                <li class="nav__item"><h1><input type="number" class="guess" /></h1></li>
+                <li class="nav__item"><button class="btn check">Check!</button></li>
+            </ul>
+        </div>
+        <div class="div-main">
+            <ul class="second-section">
+                <li class="nav__item"><span class="digit firstNumberPlus">10</span></p></li>
+                <li class="nav__item"><span class="digit">+</span></p></li>
+                <li class="nav__item"><span class="digit secondNumberPlus">10</span></p></li>
+                <li class="nav__item"><span class="digit">=</span></p></li>
+                <li class="nav__item"><h1><input type="number" class="guess_plus" /></h1></li>
+                <li class="nav__item"><button class="btn check_plus">Check!</button></li>
+            </ul>
+        </div>
+        <div class="div-main">
+            <ul class="second-section">
+                <li class="nav__item"><span class="digit firstNumberMulti">10</span></p></li>
+                <li class="nav__item"><span class="digit">×</span></p></li>
+                <li class="nav__item"><span class="digit secondNumberMulti">10</span></p></li>
+                <li class="nav__item"><span class="digit">=</span></p></li>
+                <li class="nav__item"><h1><input type="number" class="guess_multi" /></h1></li>
+                <li class="nav__item"><button class="btn check_multi">Check!</button></li>
+            </ul>
+        </div>
+
+    </main>
+    <footer>
+
+    </footer>
+    <!-- Script -->
+    <script src="script.js" type="module"></script>
+</body>
+</html>
